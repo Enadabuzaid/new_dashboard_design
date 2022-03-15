@@ -181,6 +181,8 @@ aside .top .close{
   align-items: center;
   position: relative;
   height: 3.7rem;
+  text-transform: capitalize;
+
   transition: all 300ms ease;
 }
 
