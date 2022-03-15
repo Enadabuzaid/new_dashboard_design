@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dashboard</title>
 
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <!-- google metatial icons cdn --->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -16,7 +21,79 @@
 
 </head>
 <body>
-    
+    <!-- CONTAINER START  -->
+    <div class="container">
+        <!-- ASIDE START -->
+        <aside>
+            <div class="top d-flex">
+                <div class="logo d-flex">
+                    <img src="./assets/img/logo.png" alt="Dashboard logo - Enad Dashboard">
+                    <h2 class="text-muted">ENAD<span class="main-color">A.</span></h2>
+                </div>
+
+                <div class="close" id="close-btn">
+                    <span class="material-icons">close</span>
+                </div>
+            </div>
+            
+            <!-- SIDEBAR  START -->
+                <div class="sidebar d-flex">
+                    <a href="#">
+                        <span class="material-icons">dashboard</span>
+                        <h3>dashboard</h3>
+                    </a>
+
+                    <a href="#" class="active">
+                        <span class="material-icons">perm_identity</span>
+                        <h3>customers</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">receipt_long</span>
+                        <h3>orders</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">insights</span>
+                        <h3>analytics</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">mail_outline</span>
+                        <h3>messages</h3>
+                        <span class="message-count">26</span>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">inventory</span>
+                        <h3>products</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">report_gmailerrorred</span>
+                        <h3>reports</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">settings</span>
+                        <h3>settings</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">add</span>
+                        <h3>Add product</h3>
+                    </a>
+
+                    <a href="#">
+                        <span class="material-icons">logout</span>
+                        <h3>logout</h3>
+                    </a>
+                </div>
+            <!-- ==== SIDEBART END ===== -->
+        </aside>
+        <!-- ASIDE END -->
+    </div>
+    <!-- CONTAINER END -->
 
     <script src="./assets/js/main.js"></script>
 </body>
