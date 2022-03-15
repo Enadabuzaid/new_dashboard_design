@@ -54,6 +54,7 @@ body{
   font-size: 0.88rem;
   background-color: var(--co-bg);
   user-select: none;
+  color: var(--co-dark);
   overflow-x: hidden;
 }
 
@@ -96,11 +97,19 @@ h5{
 }
 
 small{
-  font-size: 07rem;
+  font-size: 0.7rem;
 }
 
 .d-flex{
   display: flex !important;
+}
+
+.d-grid{
+  display: grid !important;
+}
+
+.grid-3-col{
+  grid-template-columns: repeat(3,1fr);
 }
 
 .profile-photo{
@@ -188,6 +197,7 @@ aside .top .close{
 
 .sidebar a span{
   font-size: 1.6rem;
+  color: var(--co-primary);
   transition: all 300ms ease;
 }
 
@@ -236,4 +246,119 @@ aside .top .close{
   padding: 2px 10px;
   font-size: 11px;
   border-radius: var(--br-1);
+}
+
+/* --------MAIN SECTION ----- */
+/* -------- CARD ------- */
+main{
+  margin-top: 1.4rem;
+}
+
+.date{
+  border-radius: var(--br-1);
+  display: inline-block;
+  background-color: var(--co-light);
+  margin-top: 1tem;
+  padding: 0.5rem 1.6rem;
+}
+
+.date input[type="date"]{
+  background-color: transparent;
+  color: var(--co-dark);
+}
+
+main .insights{
+  gap: 1.6rem;
+}
+
+
+main .insights > div{
+  background-color: var(--co-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-br);
+  margin-top: 1rem;
+  box-shadow: var(--box-shadow);
+  transition: all 300ms ease;
+}
+
+main .insights > div:hover{
+  box-shadow: none;
+}
+
+main .insights > div span{
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--co-white);
+  font-size: 2rem;
+}
+
+main .insights > div.sales span{
+  background-color: var(--co-primary);
+}
+
+main .insights > div.expenses span{
+  background-color: var(--co-danger);
+}
+
+main .insights > div.income span{
+  background-color: var(--co-success);
+}
+
+
+
+main .insights > div .middle{
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .insights  h3{
+  margin: 1rem 0 0.6rem;
+  font-size: 1rem;
+}
+
+main .insights .progress{
+  position: relative;
+  width: 92px;
+  height: 92px;
+  border-radius: 50%;
+}
+
+main .insights svg{
+  width: 7rem;
+  height: 7rem;
+}
+
+main .insights svg circle{
+  fill :none;
+  stroke: var(--co-primary);
+  stroke-width: 14;
+  stroke-linecap: round;
+  transform: translate(5px,5px);
+}
+
+main .insights .sales svg circle{
+  stroke-dashoffset: -30;
+  stroke-dasharray: 200;
+}
+
+
+main .insights .expenses svg circle{
+  stroke-dashoffset: 20;
+  stroke-dasharray: 80;
+}
+
+main .insights .income svg circle{
+  stroke-dashoffset: 35;
+  stroke-dasharray: 110;
+}
+
+main .insights .progress .number{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
