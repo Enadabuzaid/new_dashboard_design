@@ -191,7 +191,6 @@ aside .top .close{
   position: relative;
   height: 3.7rem;
   text-transform: capitalize;
-
   transition: all 300ms ease;
 }
 
@@ -254,6 +253,12 @@ main{
   margin-top: 1.4rem;
 }
 
+.date-search{
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 .date{
   border-radius: var(--br-1);
   display: inline-block;
@@ -265,6 +270,51 @@ main{
 .date input[type="date"]{
   background-color: transparent;
   color: var(--co-dark);
+}
+
+.serach{
+  align-items: center;
+  justify-content: start;
+  
+}
+
+.serach input[type="search"]{
+  background-color: var(--co-light);
+  padding: 0.7rem 1.8rem;
+  border-radius: var(--br-1);
+  position: absolute;
+  right: -16rem;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+
+.serach input[type="search"].active{
+  opacity: 1;
+  right: 3rem;
+}
+
+
+#search-btn.active-enter{
+  display: none;
+}
+
+#enter-btn{
+  opacity: 0;
+  transition: all 1s ease;
+  display: none;
+}
+
+
+#enter-btn.active{
+  opacity: 1;
+  display: inline-block;
+}
+
+.serach span{
+  padding-right: 1rem;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 main .insights{
