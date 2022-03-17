@@ -412,3 +412,47 @@ main .insights .progress .number{
   justify-content: center;
   align-items: center;
 }
+
+main .insights .small{
+  margin-top: 1.6rem;
+}
+
+/* -------- RECENT ORDER ------- */
+main .recent-orders{
+  margin-top: 2rem;
+}
+
+main .recent-orders h2{
+  margin-bottom: 0.8rem;
+}
+
+main .recent-orders table{
+  background-color: var(--co-white);
+  width: 100%;
+  border-radius: var(--card-br);
+  padding: var(--card-padding);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  transition: all 300ms ease;
+}
+
+main .recent-orders table:hover{
+  box-shadow: none;
+}
+
+main table tbody td{
+  height: 2.8rem;
+  border-bottom: 1px solid var(--co-light);
+  color: var(--co-dark-variant);
+}
+
+main table tbody tr:last-child td{
+  border: none;
+}
+
+main .recent-orders a{
+  text-align: center;
+  display: block;
+  margin: 1rem auto;
+  color: var(--co-primary);
+}
