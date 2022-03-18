@@ -456,3 +456,7 @@ main .recent-orders a{
   margin: 1rem auto;
   color: var(--co-primary);
 }
+
+main .recent-orders a:hover{
+  text-decoration: underline;
+}
