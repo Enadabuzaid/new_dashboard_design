@@ -15,7 +15,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!--MAIN STYLE -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/rtl-style.css">
+
 
 
 
@@ -40,58 +41,60 @@
                 <div class="sidebar d-flex">
                     <a href="#">
                         <span class="material-icons">dashboard</span>
-                        <h3>dashboard</h3>
+                        <h3>لوحة التحكم</h3>
                     </a>
 
                     <a href="#" class="active">
                         <span class="material-icons">perm_identity</span>
-                        <h3>customers</h3>
+                        <h3>الزبائن</h3>
                     </a>
 
                     <a href="#">
                         <span class="material-icons">receipt_long</span>
-                        <h3>orders</h3>
+                        <h3>الطلبات</h3>
                     </a>
 
                     <a href="#">
                         <span class="material-icons">insights</span>
-                        <h3>analytics</h3>
+                        <h3>التحليلات</h3>
                     </a>
 
                     <a href="#">
                         <span class="material-icons">mail_outline</span>
-                        <h3>messages</h3>
+                        <h3>الرسائل</h3>
                         <span class="message-count">26</span>
                     </a>
 
                     <a href="#">
                         <span class="material-icons">inventory</span>
-                        <h3>products</h3>
+                        <h3>المنتجات</h3>
                     </a>
 
                     <a href="#">
                         <span class="material-icons">report_gmailerrorred</span>
-                        <h3>reports</h3>
+                        <h3>التقارير</h3>
                     </a>
 
                     <a href="#">
                         <span class="material-icons">settings</span>
-                        <h3>settings</h3>
+                        <h3>الاعدادات</h3>
                     </a>
 
                     <a href="#">
                         <span class="material-icons">add</span>
-                        <h3>Add product</h3>
+                        <h3>اضافة منتج</h3>
                     </a>
 
-                    <a href="index-rtl.html">
+                    <a href="index.html">
                         <span class="material-icons">translate</span>
-                        <h3>Arabic</h3>
+                        <h3>اللغة الانجليزية</h3>
                     </a>
+
+
 
                     <a href="#">
                         <span class="material-icons">logout</span>
-                        <h3>logout</h3>
+                        <h3>تسجيل الخروج</h3>
                     </a>
                 </div>
             <!-- ==== SIDEBART END ===== -->
@@ -113,8 +116,8 @@
                 </div>
 
                 <div class="serach d-flex">
-                        <input type="search" placeholder="search" id="search-input">
-                        <span class="material-icons" id="search-btn"> search</span>
+                        <input type="search" placeholder="بحث" id="search-input">
+                        <span class="material-icons" id="search-btn">search</span>
 
                         <span class="material-icons" id="enter-btn">navigate_next</span>
                 </div>  
@@ -127,7 +130,7 @@
                     <span class="material-icons">analytics</span>
                     <div class="middle d-flex">
                         <div class="left">
-                            <h3>total sales</h3>
+                            <h3>مجموع المبيعات</h3>
                             <h1>$25,024</h1>
                         </div>
                         <div class="progress">
@@ -139,7 +142,7 @@
                             </div>
                         </div>
                     </div>
-                    <small class="text-muted">last 24 hours</small>
+                    <small class="text-muted">اخر 24 ساعة </small>
                 </div>
                 <!-- END CARD -->
 
@@ -148,7 +151,7 @@
                     <span class="material-icons">bar_chart</span>
                     <div class="middle d-flex">
                         <div class="left">
-                            <h3>total expenses</h3>
+                            <h3>مجموع المصروفات</h3>
                             <h1>$14,024</h1>
                         </div>
                         <div class="progress">
@@ -160,7 +163,7 @@
                             </div>
                         </div>
                     </div>
-                    <small class="text-muted">last 24 hours</small>
+                    <small class="text-muted">اخر 24 ساعة</small>
                 </div>
                 <!-- END CARD -->
 
@@ -169,7 +172,7 @@
                     <span class="material-icons">stacked_line_chart</span>
                     <div class="middle d-flex">
                         <div class="left">
-                            <h3>total income</h3>
+                            <h3>مجموع الواردات</h3>
                             <h1>$10,864</h1>
                         </div>
                         <div class="progress">
@@ -181,7 +184,7 @@
                             </div>
                         </div>
                     </div>
-                    <small class="text-muted">last 24 hours</small>
+                    <small class="text-muted">اخر 24 ساعة</small>
                 </div>
                 <!-- END CARD -->
 
@@ -190,14 +193,14 @@
 
             <!-- START RECENT ORDER -->
             <div class="recent-orders">
-                <h2>Recent Orders</h2>
+                <h2>اخر الطلبات</h2>
                 <table>
                     <thead>
                         <tr>
-                            <th>Product Name</th>
-                            <th>Product Number</th>
-                            <th>Payment</th>
-                            <th>status</th>
+                            <th>اسم المنتج</th>
+                            <th>رقم المنتج</th>
+                            <th>الدفع</th>
+                            <th>الحالة</th>
                             <th></th>
                         </tr>
                     </thead>
@@ -206,55 +209,55 @@
                             <td>Fokdabke mini Drone</td>
                             <td>85631</td>
                             <td>Due</td>
-                            <td class="warning">Pending</td>
-                            <td class="primary">Details</td>
+                            <td class="warning">قيد الانتظار</td>
+                            <td class="primary">التفاصيل</td>
                         </tr>
                         <tr>
                             <td> Night lion GPS drone</td>
                             <td>36378</td>
                             <td>Refunded</td>
-                            <td class="danger">Declined</td>
-                            <td class="primary">Details</td>
+                            <td class="danger">رفض</td>
+                            <td class="primary">التفاصيل</td>
                         </tr>
                         <tr>
                             <td>Fokdabke mini Drone</td>
                             <td>49347</td>
                             <td>Due</td>
-                            <td class="warning">Pending</td>
-                            <td class="primary">Details</td>
+                            <td class="warning">قيد الانتظار</td>
+                            <td class="primary">التفاصيل</td>
                         </tr> 
                         <tr>
                             <td>Fokdabke mini Drone</td>
                             <td>90058</td>
                             <td>Paid</td>
-                            <td class="primary">Delivered</td>
-                            <td class="primary">Details</td>
+                            <td class="primary">تم الاستلام</td>
+                            <td class="primary">التفاصيل</td>
                         </tr> 
                         <tr>
                             <td>Fokdabke mini Drone</td>
                             <td>22582</td>
                             <td>Paid</td>
-                            <td class="primary">Delivered</td>
-                            <td class="primary">Details</td>
+                            <td class="primary">تم الاستلام</td>
+                            <td class="primary">التفاصيل</td>
                         </tr> 
                         <tr>
                             <td>Fokdabke mini Drone</td>
                             <td>145236</td>
                             <td>Refunded</td>
-                            <td class="danger">Declined</td>
-                            <td class="primary">Details</td>
+                            <td class="danger">رفض</td>
+                            <td class="primary">التفاصيل</td>
                         </tr> 
                         <tr>
                             <td>Fokdabke mini Drone</td>
                             <td>78536</td>
                             <td>Paid</td>
-                            <td class="primary">Delivered</td>
-                            <td class="primary">Details</td>
+                            <td class="primary">تم الاستلام</td>
+                            <td class="primary">التفاصيل</td>
                         </tr> 
 
                     </tbody>
                 </table>
-                <a href="#">show more</a>
+                <a href="#">شاهد المزيد</a>
             </div>
             <!-- END RECENT ORDER -->
         </main>
@@ -298,8 +301,8 @@
                                 </div>
 
                                 <div class="message">
-                                    <p><b>Lila Romoh</b> received her order of Night lion GPS drone</p>
-                                    <small class="text-muted"> 2 Minutes Ago</small>                               
+                                    <p><b>ليلى رمح</b> وصل طلبها للمنتج  Night lion GPS drone</p>
+                                    <small class="text-muted"> 2 دقيقة مضت</small>                               
                                 </div>
                             </div>
                             <!-- UPDATE END ROW -->
@@ -311,8 +314,8 @@
                                 </div>
 
                                 <div class="message">
-                                    <p><b>Watson Dyas</b> received his order of Night lion GPS drone</p>
-                                    <small class="text-muted"> 5 Minutes Ago</small>                               
+                                    <p><b>واتسون دياز</b> وصل طلبه للمنتج Night lion GPS drone</p>
+                                    <small class="text-muted"> 5 دقيقة مضت</small>                               
                                 </div>
                             </div>
                             <!-- UPDATE END ROW -->
@@ -324,8 +327,8 @@
                                 </div>
 
                                 <div class="message">
-                                    <p><b>Tayson Loca</b> received his order of Night lion GPS drone</p>
-                                    <small class="text-muted"> 20 Minutes Ago</small>                               
+                                    <p><b>تايسون لوكا</b> وصل طلبه للمنتج Night lion GPS drone</p>
+                                    <small class="text-muted"> 20 دقيقة مضت</small>                               
                                 </div>
                             </div>
                             <!-- UPDATE END ROW -->
@@ -343,8 +346,8 @@
                         </div>
                         <div class="right">
                             <div class="info">
-                                <h3>ONLINE ORDERS</h3>
-                                <small class="text_muted">Last 24 Hours</small>
+                                <h3>طلبات الاونلاين</h3>
+                                <small class="text_muted">اخر 24 ساعة</small>
                             </div>
                             <h5 class="success">+39%</h5>
                             <h3>3849</h3>
@@ -359,8 +362,8 @@
                         </div>
                         <div class="right">
                             <div class="info">
-                                <h3>OFFLINE ORDERS</h3>
-                                <small class="text_muted">Last 24 Hours</small>
+                                <h3>طلبات المحل</h3>
+                                <small class="text_muted">اخر 24 ساعة</small>
                             </div>
                             <h5 class="danger">-17%</h5>
                             <h3>1100</h3>
@@ -375,8 +378,8 @@
                         </div>
                         <div class="right">
                             <div class="info">
-                                <h3>NEW CUSTOMERS</h3>
-                                <small class="text_muted">Last 24 Hours</small>
+                                <h3>زبون جديد</h3>
+                                <small class="text_muted">اخر 24 ساعة</small>
                             </div>
                             <h5 class="success">+25%</h5>
                             <h3>849</h3>
@@ -387,7 +390,7 @@
                     <div class="item add-product">
                         <div>
                             <span class="material-icons">add</span>
-                            <h3>Add Product</h3>
+                            <h3>اضافة منتج</h3>
                         </div>
                     </div>
                 </div>
